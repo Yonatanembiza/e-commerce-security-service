@@ -1,0 +1,9 @@
+logging:
+  level.org.springframework.cloud: DEBUG
+spring:
+  application:
+    name: security-service
+
+  config:
+    import:
+      configserver:http://localhost:3000
