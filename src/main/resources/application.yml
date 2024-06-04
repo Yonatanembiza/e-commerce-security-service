@@ -5,5 +5,6 @@ spring:
     name: security-service
 
   config:
-    import:
-      configserver:http://localhost:3000
+    import: optional:configserver:http://localhost:3000
+server:
+  port: 5000
